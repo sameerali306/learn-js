@@ -1,0 +1,28 @@
+body {
+  background-color: #000; /* Night sky */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.moon {
+  width: 150px;
+  height: 150px;
+  background-color: #fdf6e3; /* Pale yellowish white */
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 20px 5px #fff;
+  overflow: hidden;
+}
+
+.shadow {
+  width: 150px;
+  height: 150px;
+  background-color: #000; /* Same as background */
+  border-radius: 50%;
+  position: absolute;
+  left: 40px; /* Control how much of the moon is visible */
+  top: 0;
+}
